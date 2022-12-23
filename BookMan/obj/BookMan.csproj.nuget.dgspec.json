@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TUAN TAM\\OneDrive\\Máy tính\\ASP.NET\\DemoMiddleWare\\BookMan\\BookMan.csproj": {}
+    "C:\\Users\\TUAN TAM\\OneDrive\\Máy tính\\ASP.NET\\DemoASP.net Mvc\\BookMan\\BookMan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TUAN TAM\\OneDrive\\Máy tính\\ASP.NET\\DemoMiddleWare\\BookMan\\BookMan.csproj": {
+    "C:\\Users\\TUAN TAM\\OneDrive\\Máy tính\\ASP.NET\\DemoASP.net Mvc\\BookMan\\BookMan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TUAN TAM\\OneDrive\\Máy tính\\ASP.NET\\DemoMiddleWare\\BookMan\\BookMan.csproj",
+        "projectUniqueName": "C:\\Users\\TUAN TAM\\OneDrive\\Máy tính\\ASP.NET\\DemoASP.net Mvc\\BookMan\\BookMan.csproj",
         "projectName": "BookMan",
-        "projectPath": "C:\\Users\\TUAN TAM\\OneDrive\\Máy tính\\ASP.NET\\DemoMiddleWare\\BookMan\\BookMan.csproj",
+        "projectPath": "C:\\Users\\TUAN TAM\\OneDrive\\Máy tính\\ASP.NET\\DemoASP.net Mvc\\BookMan\\BookMan.csproj",
         "packagesPath": "C:\\Users\\TUAN TAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TUAN TAM\\OneDrive\\Máy tính\\ASP.NET\\DemoMiddleWare\\BookMan\\obj\\",
+        "outputPath": "C:\\Users\\TUAN TAM\\OneDrive\\Máy tính\\ASP.NET\\DemoASP.net Mvc\\BookMan\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.5, )"
